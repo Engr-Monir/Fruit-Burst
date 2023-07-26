@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- cdn fontaswam icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ 
+
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+
+
+</head>
+<body>
+ <header class="md:container md:mx-auto"> 
+
+
+  <nav class=" mt-2 bg-[#F85559] rounded-full">
+    <div class="navbar">
+        <div class="w-7/12 flex justify-start lg:justify-between ">
+           
+                <div class=" hidden lg:flex text-white lg:text-4xl font-extrabold">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+            </div>
+            <div class="flex items-center gap-3">
+                <img class="w-5 " src="./images/logo.png" alt="">
+                <h3 class="text-[#FFF] text-2xl lg:text-4xl font-medium ">Fruit Burst</h3>
+            </div>
+        </div>
+        <div class=" w-4/12 flex justify-end">
+            <div class="">
+                <div class="hidden relative lg:flex mt-6">
+                    <input type="text" placeholder="search here"
+                        class="input input-bordered rounded-full w-full max-w-xs" />
+                    <i class="fa-solid fa-magnifying-glass text-2xl absolute right-4 top-3"></i>
+                </div>
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-0 shadow bg-base-100 rounded-box w-16">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+
+
+
+
+
+
+
+
+
+
+ </header>
+
+<main>
+
+</main>
+<footer>
+
+
+</footer>
+
+</body>
+</html>
